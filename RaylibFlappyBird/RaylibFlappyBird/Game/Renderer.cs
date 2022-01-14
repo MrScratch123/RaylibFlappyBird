@@ -5,7 +5,7 @@ namespace RaylibFlappyBird
     {
         public static void Init()
         {
-            Raylib.InitWindow(1280, 720, "Floppy Bird!");
+            Raylib.InitWindow(1280, 720, "Flappy Bird!");
             Raylib.SetTargetFPS(60);
 
         }
@@ -32,7 +32,7 @@ namespace RaylibFlappyBird
         private static void DrawMenu()
         {
             // draw the main menu
-            Raylib.DrawText("Floppy Rocket!", FindCentreXPos("Floppy Rocket!", 100), 60, 100, Color.WHITE);
+            Raylib.DrawText("Flappy Bird!", FindCentreXPos("Flappy Bird!", 100), 60, 100, Color.WHITE);
             Raylib.DrawText("Press [Enter] to continue", FindCentreXPos("Press [Enter] to continue", 40), Raylib.GetScreenHeight() / 2, 40, Color.WHITE);
         }
 
