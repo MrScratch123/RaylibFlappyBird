@@ -1,3 +1,7 @@
 # RaylibFlappyBird
 Flappy bird made in c# with Raylib for the exun competition.
-I originally named this game flappy rocket but then changed it to flappy bird
+
+The game was originally names flappy rocket but later changed to flappy bird.
+
+Link to the build ->
+https://github.com/MrScratch123/FlappyBirdBuild
